@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     fontSelect.innerHTML = "";
 
     const FONT_BASE_URL =
-      "https://raw.githubusercontent.com/otoneko1102/font-manager/main/fonts/";
+      "https://raw.githubusercontent.com/otnc/font-manager/main/fonts/";
     const loadedPreviewFonts = new Set<string>();
 
     // Helper: load a font from storage and apply to an element

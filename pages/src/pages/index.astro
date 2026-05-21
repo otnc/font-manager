@@ -120,11 +120,11 @@ const featureIcons = ["lucide:type", "lucide:upload", "lucide:refresh-cw"];
       if (!numberEl || !row1 || !row2) return;
 
       const FONT_BASE =
-        "https://raw.githubusercontent.com/otoneko1102/font-manager/main/fonts/";
+        "https://raw.githubusercontent.com/otnc/font-manager/main/fonts/";
 
       try {
         const res = await fetch(
-          "https://raw.githubusercontent.com/otoneko1102/font-manager/main/fonts.json",
+          "https://raw.githubusercontent.com/otnc/font-manager/main/fonts.json",
         );
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json();

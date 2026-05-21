@@ -183,7 +183,7 @@ const t = fontsPageStrings.en;
       let allFonts: { name: string; ext: string; file: string }[] = [];
 
       const FONT_BASE =
-        "https://raw.githubusercontent.com/otoneko1102/font-manager/main/fonts/";
+        "https://raw.githubusercontent.com/otnc/font-manager/main/fonts/";
       const loadedFonts = new Set<string>();
 
       // Lazy-load fonts as cards scroll into view
@@ -211,7 +211,7 @@ const t = fontsPageStrings.en;
 
       try {
         const res = await fetch(
-          "https://raw.githubusercontent.com/otoneko1102/font-manager/main/fonts.json",
+          "https://raw.githubusercontent.com/otnc/font-manager/main/fonts.json",
         );
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json();

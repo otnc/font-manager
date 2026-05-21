@@ -5,7 +5,7 @@ import type { FontCatalog, DownloadStatus, MessageType } from "./types";
 // Font Manager - Background Service Worker
 // =============================================================
 
-const GITHUB_REPO = "otoneko1102/font-manager";
+const GITHUB_REPO = "otnc/font-manager";
 const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/`;
 const FONTS_JSON_URL = `${GITHUB_RAW_BASE}fonts.json`;
 const FONTS_DIR_URL = `${GITHUB_RAW_BASE}fonts/`;
