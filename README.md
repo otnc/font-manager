@@ -9,7 +9,7 @@
 > Other than English and Japanese, some translations may be incorrect as Google Translate or ChatGPT are used. For correction requests, visit [Issues](https://github.com/otnc/font-manager/issues) or [PR](https://github.com/otnc/font-manager/pulls).
 
 ## Supported Fonts
-Please check at [Official Website](https://font-manager.commonjs.work/)
+Please check at [Official Website](https://otnc.github.io/font-manager/)
 
 ## Description
 <details>

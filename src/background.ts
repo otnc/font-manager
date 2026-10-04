@@ -16,7 +16,7 @@ const CHECK_INTERVAL_MINUTES = 60 * 24; // 1 day
 chrome.runtime.onInstalled.addListener(async (details) => {
   if (details.reason === "install") {
     chrome.tabs.create({
-      url: `https://font-manager.commonjs.work/${chrome.i18n.getMessage("Index") || "en"}.html`,
+      url: `https://otnc.github.io/font-manager/${chrome.i18n.getMessage("Index") || "en"}.html`,
     });
     await chrome.storage.local.set({ extensionEnabled: true });
 
